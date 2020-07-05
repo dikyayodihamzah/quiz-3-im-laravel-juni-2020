@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('items.artikel_index');
+    return view('items.erd');
 });
 
 Route::get('/artikel', 'artikelController@index'); // menampilkan semua
